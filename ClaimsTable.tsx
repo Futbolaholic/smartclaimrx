@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Claim } from '@/types';
+import { Claim } from '../types';
 
 export default function ClaimsTable({ claims }: { claims: Claim[] }) {
   const [filter, setFilter] = useState('all');
