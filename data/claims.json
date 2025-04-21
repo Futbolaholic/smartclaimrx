@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "patientName": "John Smith",
+    "drugName": "Lisinopril 10mg",
+    "dateSubmitted": "2025-04-01",
+    "status": "approved",
+    "amountBilled": 45.99,
+    "amountApproved": 45.99,
+    "insurerName": "Blue Cross Blue Shield"
+  },
+  {
+    "id": "2",
+    "patientName": "Sarah Johnson",
+    "drugName": "Metformin 500mg",
+    "dateSubmitted": "2025-04-02",
+    "status": "denied",
+    "amountBilled": 32.50,
+    "amountApproved": 0,
+    "denialReason": "Prior authorization required",
+    "appealDeadline": "2025-05-02",
+    "insurerName": "Aetna"
+  },
+  {
+    "id": "3",
+    "patientName": "Robert Davis",
+    "drugName": "Atorvastatin 20mg",
+    "dateSubmitted": "2025-04-03",
+    "status": "pending",
+    "amountBilled": 78.25,
+    "amountApproved": 0,
+    "insurerName": "UnitedHealthcare"
+  },
+  {
+    "id": "4",
+    "patientName": "Emily Wilson",
+    "drugName": "Sertraline 50mg",
+    "dateSubmitted": "2025-04-01",
+    "status": "appealing",
+    "amountBilled": 54.75,
+    "amountApproved": 0,
+    "denialReason": "Non-formulary medication",
+    "appealDeadline": "2025-05-01",
+    "insurerName": "Cigna"
+  },
+  {
+    "id": "5",
+    "patientName": "Michael Brown",
+    "drugName": "Levothyroxine 75mcg",
+    "dateSubmitted": "2025-04-02",
+    "status": "approved",
+    "amountBilled": 28.99,
+    "amountApproved": 25.50,
+    "insurerName": "Humana"
+  },
+  {
+    "id": "6",
+    "patientName": "Jennifer Lee",
+    "drugName": "Escitalopram 10mg",
+    "dateSubmitted": "2025-04-03",
+    "status": "denied",
+    "amountBilled": 65.30,
+    "amountApproved": 0,
+    "denialReason": "Step therapy required",
+    "appealDeadline": "2025-05-03",
+    "insurerName": "Medicare Part D"
+  },
+  {
+    "id": "7",
+    "patientName": "David Martinez",
+    "drugName": "Losartan 50mg",
+    "dateSubmitted": "2025-04-01",
+    "status": "pending",
+    "amountBilled": 42.15,
+    "amountApproved": 0,
+    "insurerName": "Blue Cross Blue Shield"
+  },
+  {
+    "id": "8",
+    "patientName": "Lisa Thompson",
+    "drugName": "Omeprazole 20mg",
+    "dateSubmitted": "2025-04-02",
+    "status": "approved",
+    "amountBilled": 35.80,
+    "amountApproved": 35.80,
+    "insurerName": "Aetna"
+  },
+  {
+    "id": "9",
+    "patientName": "James Wilson",
+    "drugName": "Gabapentin 300mg",
+    "dateSubmitted": "2025-04-03",
+    "status": "denied",
+    "amountBilled": 48.60,
+    "amountApproved": 0,
+    "denialReason": "Quantity limit exceeded",
+    "appealDeadline": "2025-05-03",
+    "insurerName": "UnitedHealthcare"
+  },
+  {
+    "id": "10",
+    "patientName": "Patricia Garcia",
+    "drugName": "Amlodipine 5mg",
+    "dateSubmitted": "2025-04-01",
+    "status": "appealing",
+    "amountBilled": 29.95,
+    "amountApproved": 0,
+    "denialReason": "Patient information mismatch",
+    "appealDeadline": "2025-05-01",
+    "insurerName": "Cigna"
+  }
+]

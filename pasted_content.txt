@@ -1,0 +1,63 @@
+SmartClaimRx – Strategic Analysis & MVP Generation Prompt (Final)
+
+📍 Context & Goal
+I’m building SmartClaimRx, an AI-powered platform that helps independent pharmacies validate insurance claims, manage reimbursement issues, reduce appeal denials, etc...
+
+My goal is to define the highest-impact MVP, outline a launch strategy, and generate a starter codebase, all grounded in the two attached research reports from Standford's Ai STORM  (on insurance denials and reimbursement challenges).
+
+I do not know how to code, so this must be built with no-code or low-code tools where possible, or clean full-code with a simple, professional UI.
+
+📌 Section 1 – Strategic Analysis (Do This First)
+
+What is the #1 MVP Pain Point we should solve first? (Quantify it if possible)
+
+What are the top ~3 MVP Features that directly solve this pain point?
+
+Describe the Ideal Early Adopter Profile (pharmacy type, region, size, etc.)
+
+How does AI/autonomous agents make this product different from existing tools?
+
+What are the key adoption risks, and how do we mitigate them?
+
+What is the primary KPI to measure MVP success?
+
+Synthesize the market urgency and opportunity (as in why now, why AI).
+
+✅ Complete this section fully before moving to Section 2.
+
+🛠️ Section 2 – MVP Codebase 
+IF Section 1 is fully complete, generate the initial MVP codebase structure using:
+
+Tech Stack: Next.js + React + Tailwind CSS
+
+Structure to include:
+
+A clean dashboard UI showing the KPI from Section 1 and a table of claims
+
+A simple claim submission + appeal generation flow
+
+Basic routing between dashboard and form view
+
+Mock/static data is fine (CSV or static JSON)
+
+Placeholder service files:
+
+claimsIntakeService.ts
+
+denialReasonClassifier.ts
+
+reimbursementTracker.ts
+
+📦 Section 3 – Output Format
+Separate output into:
+
+1. Strategic MVP Analysis (answers from Section 1)
+2. Initial Codebase Structure (code explanation)
+
+Constraints:
+
+No external APIs
+
+Focus on modular structure, file clarity, polished UI, mock data
+
+Show key logic placeholders even if unimplemented
