@@ -1,4 +1,4 @@
-import { Claim } from '@/types';
+import { Claim } from '../types';
 import { useState } from 'react';
 
 export default function ClaimsTable({ claims }: { claims: Claim[] }) {

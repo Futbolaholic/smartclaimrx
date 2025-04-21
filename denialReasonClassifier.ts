@@ -1,4 +1,4 @@
-import { DenialReason } from '@/types';
+import { DenialReason } from '../types';
 
 /**
  * Service for classifying and analyzing claim denial reasons

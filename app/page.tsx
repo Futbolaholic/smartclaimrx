@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Claim } from '@/types';
-import ClaimsTable from '@/components/claims/ClaimsTable';
+import { Claim } from '../types';
+import ClaimsTable from '../components/claims/ClaimsTable';
 
 export default function ClaimsPage() {
   const [claims, setClaims] = useState<Claim[]>([]);
@@ -16,7 +16,7 @@ export default function ClaimsPage() {
         await new Promise(resolve => setTimeout(resolve, 1000));
         
         // Import mock data
-        const claimsData = (await import('@/data/claims.json')).default as Claim[];
+        const claimsData = (await import('../data/claims.json')).default as Claim[];
         setClaims(claimsData);
       } catch (error) {
         console.error('Error loading claims:', error);

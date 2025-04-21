@@ -1,4 +1,4 @@
-import { Claim } from '@/types';
+import { Claim } from '../types';
 
 /**
  * Service for tracking and analyzing reimbursement data

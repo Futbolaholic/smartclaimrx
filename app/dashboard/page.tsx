@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { DashboardStats, Claim } from '@/types';
-import ClaimsTable from '@/components/claims/ClaimsTable';
+import { DashboardStats, Claim } from '../types';
+import ClaimsTable from '../components/claims/ClaimsTable';
 
 export default function Dashboard() {
   const [stats, setStats] = useState<DashboardStats | null>(null);
@@ -17,8 +17,8 @@ export default function Dashboard() {
         await new Promise(resolve => setTimeout(resolve, 1000));
         
         // Import mock data
-        const statsData = (await import('@/data/dashboard-stats.json')).default as DashboardStats;
-        const claimsData = (await import('@/data/claims.json')).default as Claim[];
+        const statsData = (await import('../data/dashboard-stats.json')).default as DashboardStats;
+        const claimsData = (await import('../data/claims.json')).default as Claim[];
         
         setStats(statsData);
         setRecentClaims(claimsData.slice(0, 5)); // Show only 5 most recent claims

@@ -1,4 +1,4 @@
-import { Claim } from '@/types';
+import { Claim } from '../types';
 
 /**
  * Service for handling claim intake and validation
@@ -83,7 +83,7 @@ export class ClaimsIntakeService {
       setTimeout(async () => {
         try {
           // In a real implementation, this would be an API call
-          const claims = (await import('@/data/claims.json')).default as Claim[];
+          const claims = (await import('../data/claims.json')).default as Claim[];
           resolve(claims);
         } catch (error) {
           console.error('Error loading claims:', error);
