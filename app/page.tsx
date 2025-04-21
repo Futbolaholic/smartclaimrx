@@ -16,7 +16,7 @@ export default function ClaimsPage() {
         await new Promise(resolve => setTimeout(resolve, 1000));
         
         // Import mock data
-        const claimsData = (await import('../data/claims.json')).default as Claim[];
+        const claimsData = (await import('@/data/claims.json')).default as Claim[];
         setClaims(claimsData);
       } catch (error) {
         console.error('Error loading claims:', error);
